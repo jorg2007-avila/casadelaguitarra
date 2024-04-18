@@ -1,0 +1,224 @@
+header{
+  background: white;
+  color: black;
+  padding: 20px;
+  text-align: center;
+}
+
+header {
+  box-shadow: 0 0 30px rgba(400, 200, 0, 1.1);
+  transition: box-shadow 0.5s ease-in-out;
+}
+
+header:hover {
+  box-shadow: 0 0 30px rgba(100, 50, 0, 1.4);
+   transition: box-shadow 0.5s ease-in-out;
+   transform: scale3d(1.01, 1.01, 1.01);
+  }
+
+.producto:hover p{
+  background-color: white;
+
+}
+
+nav ul{
+
+  margin: 8px 8px 8px 8px;
+  padding: 8px 8px 8px 8px;
+  background-color: gold;
+  list-style: none;
+  width: 99%;
+  text-align: center;
+  border-radius: 13px;
+}
+
+
+nav li{
+  display: inline-flex;
+  margin: 0 30px;
+
+
+}
+
+
+nav a{
+  text-decoration: none;
+  color: black;
+  background-color: gold;
+  padding: 10 px;
+  width: 100 px;
+}
+
+nav a:hover{
+  color: darkgoldenrod; 
+  background-color: white; 
+   padding: 10 px;
+  width: 10 px;
+}
+
+
+
+body{
+  font-family: "Century Gothic", serif;
+  background: lightgoldenrodyellow;
+}
+
+header h1{
+
+  font-family: "Arial Narrow", serif;
+
+}
+
+header nav{
+font-family: "Century Gothic", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+main{
+  font-family: "century gothic", serif ;
+  max-width: 1000px;
+  margin: 20px auto;
+  padding:0 20px ;
+}
+
+header1 a{
+  list-style: none;
+  text-decoration-style: none;
+  font-family: "arial narrow", serif;
+  list-style: none;
+  color: goldenrod;
+  
+
+}
+
+.lista-productos{
+  align-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+
+.productos{
+  width: 30%;
+  background-color: white;
+  padding: 20px 5px 20px 5px;
+  margin-bottom: 20px;
+  box-shadow: 0 0 10px rgba(400, 200, 0, 1.1);
+  transition: box-shadow 0.3s ease-in-out;
+  border-radius: 13px;
+}
+
+.productos:hover{
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.4);
+  transition: box-shadow 0.3s ease-in-out;
+  background-color: gold;
+  border-radius: 13px;
+}
+
+.productos img{
+  align-content: center;
+  width: 250px;
+  height: 250px;
+  display: block;
+  transition: tranform 0.3s ease-in-out;
+  margin: 0 auto 10px;
+  transform: scale(1.0);
+  border-radius: 13px;
+}
+
+.producto img:hover{
+  transform: scale(1.0);
+
+
+
+}
+
+.productos button {
+  display: block;
+  margin: 0 auto ;
+  background-color: palegoldenrod;
+  color: black;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ense-in-out;
+    border-radius: 13px;
+}
+
+.productos button:hover{
+
+  background-color: black;
+  color:white;
+  border-radius: 13px;
+  transform: scale3d(1.01, 1.01, 1.01);
+
+}
+
+
+footer{
+
+  background-color: gold;
+  color: black;
+  display: flex;
+  justify-content: space-around;
+  padding: 30px;
+  flex-wrap: wrap;
+  font-family: Calibri;
+  font-size: 15px;
+  box-shadow: 0 0 20px rgba(200, 160, 0, 1.1);
+  transition: box-shadow 0.9s ease-in-out;
+
+}
+
+footer:hover{
+  box-shadow: 0 0 20px rgba(100, 50, 0, 1.4);
+  transition: box-shadow 0.9s ease-in-out;
+  transform: scale3d(1.01, 1.01, 1.01);
+}
+
+.links-informaticos{
+  width: 400px;
+
+}
+
+.links-informaticos ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.links-informaticos li a{
+  text-decoration: none;
+  color: black;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.redes-sociales{
+  width: 400px;
+
+}
+
+.redes-sociales img{
+  width: 50px;
+  height: 50px;
+  margin: 10px;
+}
+
+
+.redes-sociales li{
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.redes-sociales img:hover{
+  transform: scale(1.1);
+
+}
